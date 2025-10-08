@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Afrida</title>
+    <link rel="stylesheet" href="stylemain.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <body>
+        <button id="theme-toggle">☀️ Light Mode</button>
+        <main>
+                <div class="bookmark-panel">
+                    <a href="#Header" class="bookmark-btn">Header</a>
+                    <a href="#Aboutme" class="bookmark-btn">About Me</a>
+                    <a href="#skills" class="bookmark-btn">Skills</a>
+                    <a href="#portfolio" class="bookmark-btn">Portfolio</a>
+                    <a href="#contact" class="bookmark-btn">Contact</a>
+                </div>
+
+        <header>
+ <section id="Header" class="Header">
+<div class="Header">
+
+            <h2>Afrida Dwi Azzahra</h2>
+            <p>Student at President University</p>
+            <img src="linkedinpict.jpg" alt="Profile Picture" class="profile-picture">
+</div>
+</section>
+
+        </header>
+
+<section id="Aboutme" class="Aboutme">
+    <div class="Aboutme">
+        <h2>About Me</h2>
+        <p>Hello, my name is Afrida Dwi Azzahra, but I am usually called Fryda. I was born in Jakarta on March 21, 2007, but I grew up in Depok. I am currently a student at President University, majoring in Informatics.
+             I really enjoy challenging things because I find them interesting. When I was in high school, I had experience organizing a school club called KOPASUS IT.
+              At that time, I was in the Multimedia division, where I often served as DOP (Director of Photography), created content, and did other things. I really like movies, both watching them and making them.
+</p>
+</div>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Public Speaking</li>
+        <li>Photography & Videography</li>
+        <li>Teamwork</li>
+        <li>Organizational Skills</li>
+        <li>Editing</li>
+    </ul>
+</section>
+
+<section id="portfolio" class="Portofolio">
+    <h2>Portofolio</h2>
+    <img src="KEYCHAIN.png" alt="Keychain" class="portfolio-image">
+
+</section>
+
+<section id="contact" class="contact`">
+    <h2>Contact Me</h2>
+    
+    <ul>
+        <li>Email: <a href="mailto:afrida.azzahra@student.president.ac.id">afrida.azzahra@student.president.ac.id</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/fryddz_?igsh=cjg1cnZrOHlsYWdr">fryddz_</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/afrida-dwi-azzahra-520487381">Afrida Dwi Azzahra</a></li>
+    </ul>
+
+    <script>
+const toggle = document.getElementById("theme-toggle");
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+  const isLight = document.body.classList.contains("light-mode");
+  toggle.textContent = isLight ? "🌙 Dark Mode" : "☀️ Light Mode";
+});
+</script>
+</body>
